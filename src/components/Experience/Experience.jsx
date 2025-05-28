@@ -6,7 +6,7 @@ const Experience = () => {
   const { title, experiences } = experience;
   return (
     <section className="experience" id="experience">
-      <h1>{title}</h1>
+      <h1 class="highlightName">{title}</h1>
       <div className="experience-container-grid">
         {experiences.map((experience, index) => (
           <article className="experience-card" key={index}>

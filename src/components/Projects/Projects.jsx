@@ -7,7 +7,7 @@ const Projects = () => {
   const { title, personalProjects } = projects;
   return (
     <section className="projects" id="projects">
-      <h1>{title}</h1>
+      <h1 class="highlightName">{title}</h1>
       <div className="container-grid">
         {personalProjects.map((project, index) => (
           <article className="project-card" key={index}>
@@ -23,9 +23,6 @@ const Projects = () => {
             <div className="project-links">
               <a href={project.github} target="_blank">
                 <FaGithub className="icon" size={30} />
-              </a>
-              <a href={project.demo} target="_blank">
-                <FaExternalLinkAlt className="icon" size={30} />
               </a>
             </div>
           </article>

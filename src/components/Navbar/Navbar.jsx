@@ -29,9 +29,6 @@ const mobileMenu = (toggleTheme, theme) => {
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
-            </li>
-            <li>
               <a onClick={toggleTheme}>
                 {theme === "light" ? (
                   <MdNightlight className="icon" size={30} />
@@ -48,7 +45,7 @@ const mobileMenu = (toggleTheme, theme) => {
 };
 
 const Navbar = ({ toggleTheme, theme }) => {
-  const logo = "{SS}.";
+  const logo = "{E}.";
   return (
     <header>
       <nav className="navbar">
@@ -67,9 +64,7 @@ const Navbar = ({ toggleTheme, theme }) => {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+
           <li>
             <a onClick={toggleTheme}>
               {theme === "light" ? (

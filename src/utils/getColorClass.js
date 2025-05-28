@@ -2,36 +2,38 @@ const getColorClass = (tech) => {
   switch (tech) {
     case "#JavaScript":
       return "javascript";
-    case "#TypeScript":
-      return "typescript";
+    case "#PostgreSQL":
+      return "postgresql";
     case "#HTML":
       return "html";
     case "#CSS":
       return "css";
     case "#Git":
       return "git";
-    case "#Node.js":
-      return "nodejs";
-    case "#Express.js":
-      return "expressjs";
-    case "#MongoDB":
-      return "mongodb";
-    case "#PostgreSQL":
-      return "postgresql";
-    case "#Next.js":
-      return "nextjs";
-    case "#Firebase":
-      return "firebase";
-    case "#Jest":
-      return "jest";
-    case "#CI/CD":
-      return "cicd";
-    case "#AdobeXD":
-      return "adobe-xd";
+    case "#Linux":
+      return "linux";
+    case "#Python":
+    return "python";
+    case "#Windows":
+      return "windows";
+    case "#Bash scripting":
+      return "bash";
+    case "#SQL":
+      return "sql";
+    case "#Networking tools":
+      return "networking";
+    case "#Multiple APIs":
+      return "apis";
+    case "#C":
+      return "c";
+    case "#Lua":
+      return "lua";
+    case "#AdobePhotoshop":
+      return "adobe-photoshop";
     case "#React.js":
       return "reactjs";
-    case "#JWT":
-      return "jwt";
+    case "#PHP":
+      return "php";
     case "#Strapi":
       return "strapi";
     case "#MUI":

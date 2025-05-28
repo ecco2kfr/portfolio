@@ -6,7 +6,7 @@ const Skills = () => {
   const { title, mySkills } = skills;
   return (
     <section className="skills" id="skills">
-      <h1>{title}</h1>
+      <h1 class="highlightName">{title}</h1>
       <div className="skills-container-grid">
         {mySkills.map((skill, index) => (
           <article className="skills-card" key={index}>

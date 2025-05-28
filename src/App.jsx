@@ -5,8 +5,8 @@ import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+
 import "./App.css";
-import Contact from "./components/Contact/Contact";
 const App = () => {
   const [theme, setTheme] = useState("light");
 
@@ -35,7 +35,6 @@ const App = () => {
         <Projects />
         <Experience />
         <Skills />
-        <Contact />
       </main>
       <Footer />
     </div>

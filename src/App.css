@@ -5,6 +5,20 @@
   --dark-theme-color: rgb(255, 255, 255);
 }
 
+.highlightName {
+  color: #a020f0;
+
+  text-shadow: 0 0 10px rgba(160, 32, 240, 0.6),
+    0 0 20px rgba(160, 32, 240, 0.4), 0 0 30px rgba(160, 32, 240, 0.2),
+    0 0 40px rgba(160, 32, 240, 0.1);
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.highlightName:hover {
+  text-shadow: 0 0 15px rgba(160, 32, 240, 0.7),
+    0 0 25px rgba(160, 32, 240, 0.5), 0 0 35px rgba(160, 32, 240, 0.3),
+    0 0 45px rgba(160, 32, 240, 0.1);
+}
 .app {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
@@ -26,24 +40,20 @@ main {
   margin: 0 auto;
 }
 
-/* tech colors */
-.typescript {
+.postgresql {
   background-color: #2e72bb;
   color: #fff;
 }
-.expressjs {
+.windows {
   background-color: #3c4852;
   color: #fff;
 }
-.nextjs {
-  background-color: #000000;
-  color: #fff;
-}
+
 .reactjs {
   background-color: #5bceee;
   color: #fff;
 }
-.mui {
+.networking {
   background-color: #0180ff;
   color: #fff;
 }
@@ -53,7 +63,7 @@ main {
   color: #fff;
 }
 
-.nodejs {
+.linux {
   background-color: #86bf43;
   color: #fff;
 }
@@ -72,41 +82,41 @@ main {
   color: #fff;
 }
 
-.mongodb {
+.bash {
   background-color: #07ac4e;
   color: #fff;
 }
 
-.postgresql {
+.sql {
   background-color: #2f5c8b;
   color: #fff;
 }
 
-.firebase {
+.apis {
   background-color: #f19d0e;
   color: #fff;
 }
 
-.jest {
+.c {
   background-color: #c03a14;
   color: #fff;
 }
 
-.cicd {
+.lua {
   background-color: #423f7a;
   color: #fff;
 }
 
-.adobe-xd {
+.adobe-photoshop {
   background-color: #430135;
   color: #fff;
 }
 
-.strapi {
+.python {
   background-color: #8d75ff;
   color: #fff;
 }
-.jwt {
+.php {
   background-color: #d63aff;
   color: #fff;
 }
