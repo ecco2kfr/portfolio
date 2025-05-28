@@ -5,6 +5,11 @@
   --dark-theme-color: rgb(255, 255, 255);
 }
 
+.devant{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
 .highlightName {
   color: #a020f0;
 

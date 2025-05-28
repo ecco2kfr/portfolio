@@ -11,11 +11,8 @@
   grid-gap: 20px;
 }
 .container-grid .project-card {
-  border-radius: 5px;
   padding: 20px;
   transition: all 0.2s ease-in-out;
-  border-radius: 5px;
-  border: 1px solid;
   position: relative;
   overflow: hidden;
   display: flex;

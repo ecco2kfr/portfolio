@@ -5,8 +5,10 @@ import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+import ClickSpark from "./components/ClickSpark/ClickSpark";
 
 import "./App.css";
+
 const App = () => {
   const [theme, setTheme] = useState("light");
 
@@ -27,17 +29,28 @@ const App = () => {
     }
   }, []);
 
+  const currentSparkColor = theme === "light" ? "black" : "white";
+
   return (
-    <div className="app" id={`${theme}`}>
-      <main>
-        <Navbar toggleTheme={toggleTheme} theme={theme} />
-        <About />
-        <Projects />
-        <Experience />
-        <Skills />
-      </main>
-      <Footer />
-    </div>
+    <ClickSpark
+      sparkColor={currentSparkColor}
+      sparkSize={10}
+      sparkRadius={12}
+      sparkCount={8}
+      duration={300}
+    >
+      {" "}
+      <div className="app" id={`${theme}`}>
+        <main>
+          <Navbar toggleTheme={toggleTheme} theme={theme} />
+          <About />
+          <Projects />
+          <Experience />
+          <Skills />
+        </main>
+        <Footer />
+      </div>
+    </ClickSpark>
   );
 };
 

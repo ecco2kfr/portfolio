@@ -3,6 +3,8 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import "./Projects.css";
 import { projects } from "../../data/portfolio";
 import getColorClass from "../../utils/getColorClass";
+import SpotlightCard from "../SpotlightCard/SpotlightCard";
+
 const Projects = () => {
   const { title, personalProjects } = projects;
   return (
@@ -10,22 +12,24 @@ const Projects = () => {
       <h1 class="highlightName">{title}</h1>
       <div className="container-grid">
         {personalProjects.map((project, index) => (
-          <article className="project-card" key={index}>
-            <h3 className="project-title">{project.title}</h3>
-            <p className="project-description">{project.description}</p>
-            <div className="technology-stack">
-              {project.technologies.map((tech, index) => (
-                <span className={`${getColorClass(tech)}`} key={index}>
-                  {tech}
-                </span>
-              ))}
-            </div>
-            <div className="project-links">
-              <a href={project.github} target="_blank">
-                <FaGithub className="icon" size={30} />
-              </a>
-            </div>
-          </article>
+          <SpotlightCard spotlightColor="#a020f055">
+            <article className="project-card" key={index}>
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-description">{project.description}</p>
+              <div className="technology-stack">
+                {project.technologies.map((tech, index) => (
+                  <span className={`${getColorClass(tech)}`} key={index}>
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="project-links">
+                <a href={project.github} target="_blank">
+                  <FaGithub className="icon" size={30} />
+                </a>
+              </div>
+            </article>
+          </SpotlightCard>
         ))}
       </div>
     </section>
