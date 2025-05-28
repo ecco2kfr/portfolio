@@ -54,6 +54,6 @@ This portfolio is highly flexible and ready for your personal touch! You can eas
 
 ## Credits 🙏
 
-A massive thank you to [Heba Shalan](https://github.com/heba-shalan) for their incredibly inspiring portfolio template. Their clean design principles provided a fantastic starting point and a solid foundation for this React-based implementation. Truly appreciate the contribution! 🙌
+A massive thank you to [Shehab Shalan](https://github.com/shehabshalan) for their incredibly inspiring portfolio template. Their clean design principles provided a fantastic starting point and a solid foundation for this React-based implementation. Truly appreciate the contribution! 🙌
 
 ---
