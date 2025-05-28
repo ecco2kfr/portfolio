@@ -1,5 +1,5 @@
 const about = {
-  title: "Hi 👋 , I am",
+  title: "Hi 👋 , I am ",
   description:
     "I am a Cybersecurity student at @Efrei. Also, I'm interested in Sports, Music & everything Tech-related :D",
   github: "https://github.com/ecco2kfr",
@@ -64,15 +64,16 @@ const skills = {
         "#SQL",
         "#Multiple APIs",
         "#PHP",
+        "#Bash scripting"
       ],
     },
     {
-      title: "Technologies",
-      skills: ["#Git", "#AdobePhotoshop", "#PostgreSQL"],
+      title: "Technologies & Softwares",
+      skills: ["#Git", "#AdobePhotoshop", "#PostgreSQL", "#VMWare Workstation", "#VScode"],
     },
     {
       title: "Others",
-      skills: ["#Bash scripting", "#Windows", "#Linux", "#Networking tools"],
+      skills: ["#Windows", "#Linux", "#Networking tools"],
     },
   ],
 };

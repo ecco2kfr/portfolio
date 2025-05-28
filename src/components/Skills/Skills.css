@@ -17,9 +17,6 @@
   overflow: hidden;
 }
 
-.skills-container-grid .skills-card:hover {
-  transform: translateY(-5px);
-}
 
 .skills-container-grid .skills-card .skills-title {
   font-size: 1.2rem;

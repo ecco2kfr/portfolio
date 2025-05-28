@@ -34,10 +34,10 @@ const getColorClass = (tech) => {
       return "reactjs";
     case "#PHP":
       return "php";
-    case "#Strapi":
-      return "strapi";
-    case "#MUI":
-      return "mui";
+    case "#VMWare Workstation":
+      return "vmware";
+    case "#VScode":
+      return "vscode";
     default:
       return "";
   }
