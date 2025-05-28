@@ -60,6 +60,7 @@
     left: 0;
     z-index: 1;
     padding: 1rem;
+    background-color: #800080f1;
   }
   .mobile-menu-content li {
     display: flex;
