@@ -38,7 +38,12 @@
   .about h1 {
     font-size: 1.5rem;
   }
-
+  .about p{
+    padding: 15px;
+  }
+  .about-links {
+    justify-content:center !important;
+  }
   .about .about-links a {
     font-size: 1rem;
   }

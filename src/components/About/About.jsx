@@ -1,11 +1,12 @@
 import React from "react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaInstagram } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 import { about } from "../../data/portfolio";
 import "./About.css";
-import SplitText from "../SplitText/SplitText"; // Ton composant SplitText
+import SplitText from "../SplitText/SplitText";
 
 const About = () => {
-  const { title, description, cv, github, linkedin } = about;
+  const { title, description, github, instagram, discord, mail } = about;
 
   const descriptionParts = description.split("@Efrei");
 
@@ -16,7 +17,7 @@ const About = () => {
           <>
             <span class="devant">
               {title}
-              <span className="highlightName"> @ecco2kfr</span>
+              <span> @ecco2kfr </span>
             </span>
           </>
         }
@@ -36,9 +37,18 @@ const About = () => {
         {descriptionParts[1]}
       </p>
       <div className="about-links">
-          <a href={github} target="_blank" rel="noopener noreferrer">
-            <FaGithub className="icon" size={50} />
-          </a>
+        <a href={github} target="_blank" rel="noopener noreferrer">
+          <FaGithub className="icon" size={50} />
+        </a>
+        <a href={instagram} target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="icon" size={50} />
+        </a>
+        <a href={discord} target="_blank" rel="noopener noreferrer">
+          <FaDiscord className="icon" size={50} />
+        </a>
+        <a href={mail} target="_blank" rel="noopener noreferrer">
+          <SiGmail className="icon" size={50} />
+        </a>
       </div>
     </section>
   );

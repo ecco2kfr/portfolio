@@ -1,8 +1,15 @@
+import eviltwinImg from "../components/img/everyDL.png";
+import everydlImg from "../components/img/everyDL.png";
+import fan2mngImg from "../components/img/everyDL.png";
+
 const about = {
   title: "Hi 👋 , I am ",
   description:
     "I am a Cybersecurity student at @Efrei. Also, I'm interested in Sports, Music & everything Tech-related :D",
   github: "https://github.com/ecco2kfr",
+  instagram: "https://instagram.com/andreaftermath",
+  discord: "https://discord.com/users/1323421004357177455",
+  mail: "pnna.andrea@gmail.com"
 };
 
 const projects = {
@@ -15,6 +22,7 @@ const projects = {
         "EvilTwin simulates a malicious Wi-Fi network and a fake Google login page. I configured it to mimic a real corporate Wi-Fi SSID, demonstrating a phishing attack. Built entirely with HTML and CSS, this project highlights my ability to create convincing front-end interfaces for understanding social engineering.",
       technologies: ["#Bash scripting", "#Linux"],
       github: "https://github.com/ecco2kfr/EvilTwin-arch",
+      imageSrc: eviltwinImg, // Image spécifique à ce projet
     },
     {
       title: "EveryDL",
@@ -23,6 +31,7 @@ const projects = {
         "EveryDL is a Python-based tool featuring a Flask web server that lets users effortlessly download music from YouTube and SoundCloud. It supports high-quality WAV and MP3 (UHQ) formats, providing a seamless solution for converting and saving audio.",
       technologies: ["#HTML", "#CSS", "#Python", "#JavaScript", "#Windows"],
       github: "https://github.com/ecco2kfr/EveryDL",
+      imageSrc: everydlImg, // Image spécifique à ce projet
     },
     {
       title: "Fan2mng",
@@ -31,6 +40,7 @@ const projects = {
         "The Fan2mng website is a digital platform dedicated to preserving the music of artist Ptite Soeur. It features a curated collection of their songs, available exclusively through albums and covers, with a user-friendly interface for fans to explore their musical journey.",
       technologies: ["#HTML", "#CSS", "#JavaScript", "#Windows"],
       github: "https://web.archive.org/web/20240502093650/https://fan2mng.fr/",
+      imageSrc: fan2mngImg, // Image spécifique à ce projet
     },
   ],
 };
@@ -64,12 +74,18 @@ const skills = {
         "#SQL",
         "#Multiple APIs",
         "#PHP",
-        "#Bash scripting"
+        "#Bash scripting",
       ],
     },
     {
       title: "Technologies & Softwares",
-      skills: ["#Git", "#AdobePhotoshop", "#PostgreSQL", "#VMWare Workstation", "#VScode"],
+      skills: [
+        "#Git",
+        "#AdobePhotoshop",
+        "#PostgreSQL",
+        "#VMWare Workstation",
+        "#VScode",
+      ],
     },
     {
       title: "Others",
