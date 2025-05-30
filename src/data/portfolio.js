@@ -9,7 +9,7 @@ const about = {
   github: "https://github.com/ecco2kfr",
   instagram: "https://instagram.com/andreaftermath",
   discord: "https://discord.com/users/1323421004357177455",
-  mail: "pnna.andrea@gmail.com"
+  mail: "mailto:pnna.andrea@gmail.com",
 };
 
 const projects = {

@@ -13,7 +13,7 @@ const getColorClass = (tech) => {
     case "#Linux":
       return "linux";
     case "#Python":
-    return "python";
+      return "python";
     case "#Windows":
       return "windows";
     case "#Bash scripting":
