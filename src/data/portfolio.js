@@ -48,7 +48,7 @@ const experience = {
       company: "Air Liquide",
       duration: "May 2025 - June 2025",
       description:
-        "For a two-month period, I was a cybersecurity intern at Air Liquide. I worked on Rogue AP detection and conducted a cybersecurity awareness presentation for the company. I demonstrated USB recovery, quishing, BadUSB, EvilTwin, and badge theft using Flipper Zero to highlight cybersecurity risks and best practices.",
+        "For a two-month period, I was a cybersecurity intern at Air Liquide. I worked on Rogue AP detection and conducted a cybersecurity awareness presentation for the company. I demonstrated USB recovery, quishing, BadUSB, EvilTwin, and badge theft using Flipper Zero to highlight cybersecurity risks and best practices. I also learnt about VoIP/ToIP, HSTS, Arduino, MFA methods (WebAuthn)",
     },
   ],
 };
@@ -70,6 +70,7 @@ const skills = {
         "#Multiple APIs",
         "#PHP",
         "#Bash scripting",
+        "#Arduino",
       ],
       python: true,
     },

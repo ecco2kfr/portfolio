@@ -45,6 +45,10 @@ main {
   margin: 0 auto;
 }
 
+.arduino {
+  background-color: #522cac;
+  color: #fff;
+}
 .postgresql {
   background-color: #2e72bb;
   color: #fff;

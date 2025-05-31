@@ -1,5 +1,7 @@
 const getColorClass = (tech) => {
   switch (tech) {
+    case "#Arduino":
+      return "arduino";
     case "#Vim":
       return "vim";
     case "#FileZilla":

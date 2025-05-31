@@ -50,7 +50,9 @@ const Navbar = ({ toggleTheme, theme }) => {
     <header>
       <nav className="navbar" id={`${theme}`}>
         <div className="logo">
-          <h1>{logo}</h1>
+          <a href="#">
+            <h1>{logo}</h1>
+          </a>
         </div>
         {mobileMenu(toggleTheme, theme)}
         <ul className="nav-list">
