@@ -4,7 +4,7 @@ const about = {
     "Cybersecurity student at @Efrei with a strong interest in sports, music, and all things tech. I'm currently seeking job opportunities in Paris.",
   github: "https://github.com/ecco2kfr",
   discord: "https://discord.com/users/1323421004357177455",
-  mail: "mailto:pnna.andrea@gmail.com",
+  mail: "mailto:ecco2kfr@gmail.com",
 };
 
 const projects = {
