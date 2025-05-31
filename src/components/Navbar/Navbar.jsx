@@ -48,7 +48,7 @@ const Navbar = ({ toggleTheme, theme }) => {
   const logo = "{E}.";
   return (
     <header>
-      <nav className="navbar">
+      <nav className="navbar" id={`${theme}`}>
         <div className="logo">
           <h1>{logo}</h1>
         </div>
@@ -77,7 +77,6 @@ const Navbar = ({ toggleTheme, theme }) => {
       </nav>
       <div className="page-separator-header"></div>
     </header>
-    
   );
 };
 

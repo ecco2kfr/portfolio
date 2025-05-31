@@ -1,9 +1,8 @@
 const about = {
   title: "Hi 👋 , I am ",
   description:
-    "I am a Cybersecurity student at @Efrei. Also, I'm interested in Sports, Music & everything Tech-related :D I am looking for an internship / ",
+    "Cybersecurity student at @Efrei with a strong interest in sports, music, and all things tech. I'm currently seeking job opportunities in Paris.",
   github: "https://github.com/ecco2kfr",
-  instagram: "https://instagram.com/andreaftermath",
   discord: "https://discord.com/users/1323421004357177455",
   mail: "mailto:pnna.andrea@gmail.com",
 };
@@ -49,7 +48,7 @@ const experience = {
       company: "Air Liquide",
       duration: "May 2025 - June 2025",
       description:
-        "For a two-month period, I was a cybersecurity intern at Air Liquide. I worked on Rogue AP detection and conducted a cybersecurity awareness presentation for the company. During the presentation, I demonstrated USB recovery, quishing, BadUSB, EvilTwin, and badge theft using Flipper Zero to highlight cybersecurity risks and best practices.",
+        "For a two-month period, I was a cybersecurity intern at Air Liquide. I worked on Rogue AP detection and conducted a cybersecurity awareness presentation for the company. I demonstrated USB recovery, quishing, BadUSB, EvilTwin, and badge theft using Flipper Zero to highlight cybersecurity risks and best practices.",
     },
   ],
 };
@@ -82,6 +81,8 @@ const skills = {
         "#PostgreSQL",
         "#VMWare Workstation",
         "#VScode",
+        "#FileZilla",
+        "#Vim",
       ],
       git: true,
     },

@@ -7,6 +7,13 @@
   margin-bottom: 7rem;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 100;
+}
+
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -36,11 +43,7 @@
 
 .logo h1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.8rem;
-  font-weight: 700;
-  cursor: pointer;
+  font-size: 2rem;
   color: #a020f0;
 }
 
@@ -51,8 +54,6 @@
 
   .mobile-menu-content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
@@ -81,6 +82,12 @@
   }
   .mobile-menu-toggle-close {
     margin-bottom: 2rem;
+  }
+  .navbar {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 100;
   }
 }
 

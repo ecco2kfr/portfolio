@@ -134,6 +134,16 @@ main {
   color: #fff;
 }
 
+.filezilla {
+  background-color: #800000;
+  color: #fff;
+}
+
+.vim {
+  background: #1bff7e;
+  color: #fff;
+}
+
 .page-separator {
   width: 100%;
   height: 2px;

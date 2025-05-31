@@ -1,5 +1,9 @@
 const getColorClass = (tech) => {
   switch (tech) {
+    case "#Vim":
+      return "vim";
+    case "#FileZilla":
+      return "filezilla";
     case "#JavaScript":
       return "javascript";
     case "#PostgreSQL":
