@@ -75,7 +75,9 @@ const Navbar = ({ toggleTheme, theme }) => {
           </li>
         </ul>
       </nav>
+      <div className="page-separator-header"></div>
     </header>
+    
   );
 };
 

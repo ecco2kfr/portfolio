@@ -1,11 +1,11 @@
 :root {
-  --light-theme-background: rgb(255, 255, 255);
-  --light-theme-color: #000000;
-  --dark-theme-background: #000000;
-  --dark-theme-color: rgb(255, 255, 255);
+  --light-theme-background: #ffffff;
+  --light-theme-color: #121212;
+  --dark-theme-background: #121212;
+  --dark-theme-color: #ffffff;
 }
 
-.devant{
+.devant {
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -125,11 +125,20 @@ main {
   background-color: #d63aff;
   color: #fff;
 }
-.vmware{
-  background-color:#c0d838 ;
+.vmware {
+  background-color: #c0d838;
   color: #fff;
 }
-.vscode{
-  background-color:#d437b2 ;
+.vscode {
+  background-color: #d437b2;
   color: #fff;
+}
+
+.page-separator {
+  width: 100%;
+  height: 2px;
+  background-color: #282828;
+  border-radius: 2px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }

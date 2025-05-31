@@ -18,6 +18,10 @@
   overflow: hidden;
 }
 
+.al_logo {
+  color: #a020f0;
+}
+
 .experience-container-grid .job-title-duration-section {
   display: flex;
   flex-direction: row;

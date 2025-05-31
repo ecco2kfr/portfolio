@@ -6,8 +6,8 @@
 }
 
 h1 {
-  font-size: 2.3rem;
-  margin-left: 40px;
+  font-size: 2.5rem;
+  margin-left: 20px;
 }
 .container-grid {
   margin-top: 2rem;
@@ -31,11 +31,11 @@ h1 {
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 .project-title {
   font-size: 1.6rem !important;
+  padding-bottom: 10px;
 }
 .container-grid .project-card .project-description {
   font-size: 1rem;
@@ -45,7 +45,6 @@ h1 {
 }
 .container-grid .project-card .technology-stack {
   font-weight: 500;
-  margin-bottom: 2rem;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -63,10 +62,11 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-
+.project-title a {
+  color: #a020f0;
+}
 .img_pres {
   opacity: 65%;
-  margin-bottom: 20px;
   transition: 0.4s ease-in-out;
 }
 

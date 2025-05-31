@@ -1,4 +1,3 @@
-import React from "react";
 import { FaDiscord, FaGithub, FaInstagram } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { about } from "../../data/portfolio";
@@ -15,7 +14,7 @@ const About = () => {
       <SplitText
         text={
           <>
-            <span class="devant">
+            <span className="devant">
               {title}
               <span> @ecco2kfr </span>
             </span>
@@ -31,25 +30,30 @@ const About = () => {
 
       <p>
         {descriptionParts[0]}
-        <span style={{ fontWeight: "bold" }} className="highlightName">
+        <a
+          target="_blank"
+          className="highlightName"
+          href="https://www.efrei.fr/"
+        >
           @Efrei
-        </span>
+        </a>
         {descriptionParts[1]}
       </p>
       <div className="about-links">
         <a href={github} target="_blank" rel="noopener noreferrer">
-          <FaGithub className="icon" size={50} />
+          <FaGithub className="icon" size={45} />
         </a>
         <a href={instagram} target="_blank" rel="noopener noreferrer">
-          <FaInstagram className="icon" size={50} />
+          <FaInstagram className="icon" size={45} />
         </a>
         <a href={discord} target="_blank" rel="noopener noreferrer">
-          <FaDiscord className="icon" size={50} />
+          <FaDiscord className="icon" size={45} />
         </a>
         <a href={mail} target="_blank" rel="noopener noreferrer">
-          <SiGmail className="icon" size={50} />
+          <SiGmail className="icon" size={45} />
         </a>
       </div>
+      <div className="page-separator"></div>
     </section>
   );
 };

@@ -1,11 +1,7 @@
-import eviltwinImg from "../components/img/everyDL.png";
-import everydlImg from "../components/img/everyDL.png";
-import fan2mngImg from "../components/img/everyDL.png";
-
 const about = {
   title: "Hi 👋 , I am ",
   description:
-    "I am a Cybersecurity student at @Efrei. Also, I'm interested in Sports, Music & everything Tech-related :D",
+    "I am a Cybersecurity student at @Efrei. Also, I'm interested in Sports, Music & everything Tech-related :D I am looking for an internship / ",
   github: "https://github.com/ecco2kfr",
   instagram: "https://instagram.com/andreaftermath",
   discord: "https://discord.com/users/1323421004357177455",
@@ -19,28 +15,28 @@ const projects = {
       title: "EvilTwin",
       short: "Fake Wifi including a Captive portal.",
       description:
-        "EvilTwin simulates a malicious Wi-Fi network and a fake Google login page. I configured it to mimic a real corporate Wi-Fi SSID, demonstrating a phishing attack. Built entirely with HTML and CSS, this project highlights my ability to create convincing front-end interfaces for understanding social engineering.",
+        "EvilTwin simulates a malicious Wi-Fi network and fake Google login page, mimicking a corporate SSID to demonstrate phishing. Built with HTML/CSS, it showcases my front-end skills for social engineering understanding.",
       technologies: ["#Bash scripting", "#Linux"],
       github: "https://github.com/ecco2kfr/EvilTwin-arch",
-      imageSrc: eviltwinImg, // Image spécifique à ce projet
+      link: null,
     },
     {
       title: "EveryDL",
       short: "Pyhthon-based song downloader.",
       description:
-        "EveryDL is a Python-based tool featuring a Flask web server that lets users effortlessly download music from YouTube and SoundCloud. It supports high-quality WAV and MP3 (UHQ) formats, providing a seamless solution for converting and saving audio.",
+        "EveryDL is a Python-Flask tool to effortlessly download high-quality WAV and MP3 music from YouTube and SoundCloud, offering a seamless audio conversion and saving solution.",
       technologies: ["#HTML", "#CSS", "#Python", "#JavaScript", "#Windows"],
       github: "https://github.com/ecco2kfr/EveryDL",
-      imageSrc: everydlImg, // Image spécifique à ce projet
+      link: null,
     },
     {
       title: "Fan2mng",
       short: "Music archive.",
       description:
-        "The Fan2mng website is a digital platform dedicated to preserving the music of artist Ptite Soeur. It features a curated collection of their songs, available exclusively through albums and covers, with a user-friendly interface for fans to explore their musical journey.",
+        "Fan2mng is a digital platform dedicated to preserving Ptite Soeur's music. It offers a curated collection of their songs, exclusively via albums and covers, within a user-friendly interface for fans.",
       technologies: ["#HTML", "#CSS", "#JavaScript", "#Windows"],
-      github: "https://web.archive.org/web/20240502093650/https://fan2mng.fr/",
-      imageSrc: fan2mngImg, // Image spécifique à ce projet
+      github: null,
+      link: "https://web.archive.org/web/20240502093650/https://fan2mng.fr/",
     },
   ],
 };
@@ -76,6 +72,7 @@ const skills = {
         "#PHP",
         "#Bash scripting",
       ],
+      python: true,
     },
     {
       title: "Technologies & Softwares",
@@ -86,10 +83,12 @@ const skills = {
         "#VMWare Workstation",
         "#VScode",
       ],
+      git: true,
     },
     {
       title: "Others",
       skills: ["#Windows", "#Linux", "#Networking tools"],
+      archlinux: true,
     },
   ],
 };
